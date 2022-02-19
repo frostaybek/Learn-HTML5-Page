@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="alternate" href="http://github.com/frostaybek"  hreflang="en-us">
+    <meta name="keywords" content="html, learn html, hyper text markup language, hiper metin işaretleme dili, ayaz aybek, web tasarım, web kodlama, işaretleme dili">
+    <meta name="description" content="Hello, and welcome to Ayaz Aybek's HTML lessons. In this site, you can learn HTML5 and doing some practices.">
+    <meta name="author" content="Ayaz Aybek">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+    <title>HTML Lesson 1 - Ayaz Aybek</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script>
+        function myFunction(){
+            alert('E-Mail: frostaybek@gmail.com');
+        }
+    </script>
+    <header class="header">
+        <a href="#">
+            <h1 class="header-h1">
+            Home - Ayaz Aybek
+            </h1>
+        </a>
+        <button id="header-btn" onclick="myFunction()">
+            <i class="fab fa-telegram" id="header-i"></i>
+            Contact me
+        </button>
+    </header>
+
+    <nav class="navbar">
+        <div class="nav-div"><a href="#" class="nav-a">HTML5</a></div>
+        <div class="nav-div"><a href="#" class="nav-a">CSS3</a></div>
+        <div class="nav-div"><a href="#" class="nav-a">JavaScript</a></div>
+        <div class="nav-div"><a href="#" class="nav-a">More</a></div>
+    </nav>
+
+    <aside class="aside">
+        <section class="sect">
+            <h1 class="sect-h1">HTML</h1>
+            <h2 class="sect-h2">Hyper Text Markup Language</h2>
+            <a class="sect-link">Start Learn</a>
+        </section>
+        <article class="art">
+            <blockquote class="art-blockquote" cite="https://en.wikipedia.org/wiki/HTML">
+                The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+            </blockquote>
+            <a href="#" class="art-btn">
+                Next
+            </a>
+        </article>
+    </aside>
+
+    <footer class="footer">
+        <div class="first">
+            <a href="#" class="links" target="_blank">Home</a>
+            <a href="#" class="links" target="_blank">Links</a>
+            <a href="#" class="links" target="_blank">Learn</a>
+        </div>
+        <div class="second">
+            <a href="#" class="links" target="_blank" id="top">About</a>
+            <a href="#" class="links" target="_blank">Contact</a>
+        </div>
+        <div class="third">
+            <select name="lang" id="select" onclick="losefocus()">
+                <option value="english" class="opt">English</option>
+                <option value="turkish" class="opt">Türkçe</option>
+            </select>
+        </div>
+    </footer>
+</body>
+</html>
